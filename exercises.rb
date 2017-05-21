@@ -1,5 +1,6 @@
 =begin 
-1) Given a 'num' and a character, print a right triangle that consists of 'num' lines of the character, starting with one character on the first line and increasing by one on each line. It should look like this:
+1) Given a 'num' and a character, print a right triangle that consists of 'num' lines of the character, 
+starting with one character on the first line and increasing by one on each line. It should look like this:
 *
 **
 ***
