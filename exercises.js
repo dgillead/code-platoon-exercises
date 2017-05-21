@@ -19,3 +19,18 @@ function sliceArray(array) {
 }
 
 sliceArray([1, 2, 3, 4, 5, 6, 7, 8, 9]);
+
+// 3) Given a string and a character, count how many times that character occurs in the string.
+
+function countChars(string, character) {
+  var count = 0;
+  var stringArray = string.split("");
+    for (var i = 0; i < stringArray.length; i++) {
+      if (stringArray[i] === character) {
+        count++;
+      }
+    }
+    return count;
+}
+
+countChars("hello", "l");
