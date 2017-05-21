@@ -34,3 +34,25 @@ function countChars(string, character) {
 }
 
 countChars("hello", "l");
+
+// 4) Given a string, check to see whether it is a palindrome (the same backward and forward i.e., 'racecar')
+
+function palindrome(string) {
+  var reverseString = string.split("").reverse().join("");
+  return string === reverseString;
+}
+
+palindrome("racecar");
+
+// 5) Given an object, a key, and an array, set a new property on the object at the given key, with its value set to the given array.
+
+var myObj = {};
+
+function addArrayProperty(obj, key, arr) {
+  // your code here
+  obj[key] = arr;
+  return obj;
+}
+
+addArrayProperty(myObj, "hello", [2, 3, 4]);
+addArrayProperty(myObj, "goodbye", [5, 6, 7]);
