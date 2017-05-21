@@ -9,12 +9,14 @@
 # Exercises for Code Platoon in Ruby
 
 6) Given a 'num' and a character, print a right triangle that consists of 'num' lines of the character, starting with one character on the first line and increasing by one on each line. It should look like this:
+```
 *
 **
 ***
 ****
 *****
 ******
+```
 7) Given a string of words, sort by length, with the shortest words at the beginning.
 8) Given an array of numbers and one number, delete that number from the array
 9) Given that same input, delete all numbers that are less than the number
