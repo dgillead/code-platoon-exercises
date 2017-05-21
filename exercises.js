@@ -11,3 +11,11 @@ function evenNums(array) {
 }
 
 evenNums([1, 2, 3, 4, 5, 6, 7, 8, 9]);
+
+// 2) Given an array, return a new array with all elements but the first one.
+
+function sliceArray(array) {
+    return array.slice(1);
+}
+
+sliceArray([1, 2, 3, 4, 5, 6, 7, 8, 9]);
