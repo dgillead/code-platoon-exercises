@@ -22,7 +22,7 @@ char_triangle(6, "*")
 # 2) Given a string of words, sort by length, with the shortest words at the beginning.
 
 def sort_by_length(string)
-  stringArray = string.split.sort_by{|word| word.length}
+  sortedString = string.delete(".").split.sort_by{|word| word.length}.join(" ")
 end
 
 sort_by_length("This should be sorted by length with the shortest words first.")
